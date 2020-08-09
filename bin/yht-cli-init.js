@@ -8,7 +8,6 @@ const fs = require('fs')
 const chalk = require('chalk')
 const logSymbols = require('log-symbols')
 const download = require('../lib/download')
-const latestVersion = require('latest-version')
 const generator = require('../lib/generator')
 
 program.usage('<project-name>').parse(process.argv)
