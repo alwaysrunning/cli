@@ -44,7 +44,9 @@ if (list.length) { // 如果当前目录不为空
         message: '请选择模版类型',
         choices: [
             "PC template",
-            "moblie template"
+            "moblie template",
+            "SSR template",
+            "koa template"
         ]
     }]).then(answer => {
         return Promise.resolve({projectName: projectName, templateType:answer.templateType})
