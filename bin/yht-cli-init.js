@@ -46,7 +46,6 @@ if (list.length) { // 如果当前目录不为空
             "React Hook template",
             "Vue template",
             "Vue SSR template",
-            "Template"
         ]
     }]).then(answer => {
         return Promise.resolve({projectName: projectName, templateType:answer.templateType})
@@ -57,8 +56,9 @@ if (list.length) { // 如果当前目录不为空
         name: 'templateType',
         message: '请选择模版类型',
         choices: [
-            "PC template",
-            "moblie template"
+            "React Hook template",
+            "Vue template",
+            "Vue SSR template",
         ]
     },
     {
@@ -76,8 +76,9 @@ if (list.length) { // 如果当前目录不为空
         name: 'templateType',
         message: '请选择模版类型',
         choices: [
-            "PC template",
-            "moblie template"
+            "React Hook template",
+            "Vue template",
+            "Vue SSR template",
         ]
     }]).then(answer => {
         return Promise.resolve({projectName: projectName, templateType:answer.templateType})
