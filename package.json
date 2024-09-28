@@ -1,6 +1,6 @@
 {
   "name": "yht-cli",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "脚手架工具",
   "bin": {
     "yht-cli": "./bin/index.js"
