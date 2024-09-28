@@ -126,7 +126,7 @@ function go() {
         return generator(context, context.root)
     }).then(context => {
         console.log(logSymbols.success, chalk.green('创建成功:)'))
-        console.log(chalk.green('cd ' + context.root + '\nnpm install\nnpm run dev'))
+        console.log(chalk.green('cd ' + context.root + '\nyarn install\nnpm run dev'))
     }).catch(err => {
         console.error(logSymbols.error, chalk.red(`创建失败：${err.message}`))
     })
